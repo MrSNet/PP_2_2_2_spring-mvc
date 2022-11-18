@@ -6,6 +6,12 @@ public class Car {
     private String model;
     private int series;
 
+    public Car(Long id, String model, int series) {
+        this.id = id;
+        this.model = model;
+        this.series = series;
+    }
+
     public Long getId() {
         return id;
     }
